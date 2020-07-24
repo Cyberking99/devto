@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gaute Meek Olsen">
+    <title>My DEV Community Blog</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oxanium:600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a><span class="name"></span>'s Blog</a>
+    </header>
+    <ul id="blog-list"></ul>
+    <footer>
+        © 2020 <a href="https://github.com/Cyberking99">Kefas Kingsley</a><br> All rights reserved
+    </footer>
+</body>
+</html>
+
+<template id="blog-item">
+    <li>
+        <a class="url">
+            <img class="cover" alt="cover image">
+            <h3 class="title"></h3>
+        </a>
+    </li>
+</template>
+
+<script src="./script/app.js"></script>
